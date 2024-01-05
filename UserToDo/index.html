@@ -3,7 +3,51 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Title of our page -->
+    <title>Add User List</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Heading for the webpage -->
+    <h1>User List</h1>
+
+    <!-- Div that contains input field and add Span that works as button -->
+    <div class="addPerson">
+      <!-- Taking User's name -->
+      <input
+        type="text"
+        id="personName"
+        class="inputDetail"
+        placeholder="Name"
+      />
+
+      <!-- Taking User's name -->
+      <input
+        type="number"
+        id="personAge"
+        class="inputDetail ageBox"
+        placeholder="Age"
+      />
+
+      <!-- add button to call a function on click -->
+      <span onclick="addPersonDetail()" class="addBtn">Add &#43;</span>
+    </div>
+
+    <div class="table-container">
+      <table id="userDetailsTable">
+        <tr>
+          <th>Index</th>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Buttons</th>
+        </tr>
+      </table>
+    </div>
+  </body>
+
+  <!-- External Javascript file -->
+  <script src="script.js"></script>
 </html>

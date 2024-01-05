@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffe5d9;
+}
+
+/* heading text style */
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+/* add-task Division that contains input box and a span */
+.addPerson {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+/* input box for adding User Details */
+.inputDetail {
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.ageBox {
+  width: 8rem;
+  margin-right: 1rem;
+}
+
+/* button to add User Details */
+.addBtn {
+  padding: 0.9rem 1.3rem;
+  background-color: #fbb456;
+  color: white;
+  font-weight: bold;
+  border-radius: 1.5rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.addBtn:hover {
+  transform: scale(1.1);
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* class names yet to define meaningful */
+
+table {
+  width: 50%;
+  border: 2px solid white;
+  border-radius: 1rem;
+  background-color: white;
+  margin: 2rem 12rem;
+  padding: 1rem;
+}
+
+th {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+tr {
+  border-radius: 1rem;
+}
+
+td {
+  border-radius: 1rem;
+  background-color: aliceblue;
+  padding: 0.3rem 1rem;
+}
+
+.modifyDetailsBtn {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 0.4rem 0.6rem;
+  background-color: #fbb456;
+  border-radius: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bolder;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
