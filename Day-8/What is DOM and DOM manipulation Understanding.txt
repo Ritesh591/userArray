@@ -1,0 +1,64 @@
+#What is DOM Actually?
+
+-> DOM stands for Document Object Model(Basically a structured representation of HTML Documents)
+
+-> it allows JS to access HTML elements and Manipulate them.
+
+(We can say it's a Connection point b/w HTML code and JS document)
+
+-> HTML is stored in a DOM tree structure.
+
+-------------------------------------------
+
+=> Dom always Start with "DOCUMENT" Obejct (Serves as entry point of DOM)
+Eg. document.querySelector();
+
+
+-> 1st child element of Document is <html> elememt because it's root element in all html documents.
+
+-> Two sibling element of <html> are <head> and <body>. There are more and more child elements of both head and body 
+
+-> DOM tree has more than just element nodes. it also has nodes for all the texts, comments and all the other stuff.
+
+
+"Whatever is in HTML document also has to be in DOM"
+
+==============================================
+
+DOM !== JAVASCRIPT
+
+=> JavaScript and DOM are not simillar
+
+-> JavaScript is a dialact in EcmaSript
+
+-> DOM and DOM methods are actully a part of WEB APIs(Application Programming interface) These are libraries that browser implements and we can access those libraries from our JS Code
+
+========================
+
+
+To Use DOM:-
+
+-> when we want to select an element from the html by it's class name
+
+document.querySelector('.className');
+
+OR
+
+document.getElementByClassName("className");
+
+-> if we wanted to select by ID name 
+
+document.querySelector('#IdName');
+
+OR
+
+document.getElementById("IdName");
+
+-> When we want to set a value to an input textbox
+
+
+=========== Event Listner ===============
+
+-> an event is something that happens on the page. For example, a mouse click, mouse moving, key press or many other events.
+
+-> with an event listener, we can wait for a certain event to happen, and then react to it.
